@@ -1,0 +1,19 @@
+#hover-tooltip {
+    position: fixed;
+    padding: 6px 10px;
+    background-color: red;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    z-index: 9999;
+    pointer-events: none;
+}
+
+.hover-highlight {
+    outline: 2px solid red !important;
+}
